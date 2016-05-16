@@ -4,6 +4,7 @@
 
 ## Install on Debian or Ubuntu
 
+### Prerequisites
 ```shell
 # Required
 $ sudo apt-get install g++ libboost-dev cmake
@@ -22,6 +23,19 @@ $ sudo apt-get install zlib1g-dev libc-ares-dev libcurl4-openssl-dev
 # GD2
 $ sudo apt-get install libgd-dev  # or libgd2-noxpm-dev
 ```
+
+### Get source code and compile
+```shell
+$ git clone https://github.com/chenshuo/muduo.git
+$ cd muduo
+$ ./build.sh
+# check output files in ../build/release/bin
+
+# Build debug version
+$ BUILD_TYPE=debug ./build.sh
+```
+
+If you want to run binary on a different machine, comment out `-march=native` in `CMakeLists.txt`.  Otherwise you may see `SIGILL` if the CPU of target machine is older than compile machine.
 
 ## Supported Linux Distros
 
