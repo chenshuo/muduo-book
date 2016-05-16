@@ -40,7 +40,7 @@ If you want to run binary on a different machine, comment out `-march=native` in
 ## Supported Linux Distros
 
 |Tier|Linux | Kernel |GCC|Boost|
-|------|--------|
+|------|--------|---|---|---|
 |3|Debian 6| 2.6.32| 4.4.5|1.42.0|
 |1|Debian 7| 3.2.0 | 4.7.2|1.49.0|
 |2|Debian 8| 3.16.0| 4.9.2|1.55.0|
