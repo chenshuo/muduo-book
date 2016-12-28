@@ -30,9 +30,7 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.todo',
-    'sphinx.ext.ifconfig',
-    'sphinx.ext.githubpages']
+extensions = ['sphinx.ext.todo', 'sphinx.ext.ifconfig']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Muduo network library examples'
+project = u'Muduo network library'
 copyright = u'2016, Shuo Chen'
 author = u'Shuo Chen'
 
