@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Muduo network library examples documentation build configuration file, created by
+# Muduo Network Library documentation build configuration file, created by
 # sphinx-quickstart on Wed Dec 28 15:28:14 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Muduo network library'
+project = u'Muduo Network Library'
 copyright = u'2016, Shuo Chen'
 author = u'Shuo Chen'
 
@@ -82,7 +82,7 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+# html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -99,7 +99,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Muduonetworklibraryexamplesdoc'
+htmlhelp_basename = 'Muduonetworklibrarydoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -126,7 +126,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Muduonetworklibraryexamples.tex', u'Muduo network library examples Documentation',
+    (master_doc, 'muduo.tex', u'Muduo Network Library Documentation',
      u'Shuo Chen', 'manual'),
 ]
 
@@ -136,7 +136,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'muduonetworklibraryexamples', u'Muduo network library examples Documentation',
+    (master_doc, 'muduonetworklibrary', u'Muduo Network Library Documentation',
      [author], 1)
 ]
 
@@ -147,8 +147,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Muduonetworklibraryexamples', u'Muduo network library examples Documentation',
-     author, 'Muduonetworklibraryexamples', 'One line description of project.',
+    (master_doc, 'Muduonetworklibrary', u'Muduo Network Library Documentation',
+     author, 'Muduonetworklibrary', 'One line description of project.',
      'Miscellaneous'),
 ]
 
