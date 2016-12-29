@@ -8,10 +8,11 @@ Welcome to Muduo network library's documentation!
 
 .. toctree::
   :maxdepth: 2
+  :numbered:
   :caption: Contents:
 
-  examples/simple
-  examples/sudoku
+  tutorial
+  examples/index
 
 
 
